@@ -1,0 +1,108 @@
+@media screen and (min-width: 768px) {
+  .navItems {
+    padding:0px 30px 0px 0px;
+  }
+  .navstyle {
+    padding: 10px;
+  }
+  .trash-Problem {
+    padding: 50px
+  }
+}
+@media screen and (max-width: 768px) {
+  .videoContent {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+}
+
+.subtitle > p {
+  margin:10px;
+}
+
+.recycle-head {
+  margin: 0px 40px 40px 40px;
+}
+.solution-form {
+  padding: 20px;
+
+  border: 1px solid green;
+  border-radius: 10px;
+}
+.solution-form-input {
+  border-radius: 10px;
+
+}
+.altStyleTop {
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.altStyleBottom {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left:10px;
+}
+.reduce-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.earth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.duniya {
+  width: 25px;
+  height: 25px;
+  background: url(https://1.bp.blogspot.com/-UUXaK5GCj-k/UcsKJRMgkVI/AAAAAAAACfM/sePP_H08JTQ/s1600/1.jpg);
+  border-radius: 100%;
+  background-size: 380px;
+  animation: spin 7s infinite linear;
+  position: relative;
+}
+
+.logo {
+
+  color: #58974D;
+  font-weight: bold;
+}
+
+@keyframes spin {
+  0%{
+    background-position-x: 380px;
+  }
+  100%{
+    background-position-x: 0;
+    }
+}
+
+.video-text{
+  position: absolute;
+  top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.video-text > .title, .video-text > .subtitle {
+  color: white;
+}
+
+
+.videoContent {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+#myVideo {
+  width: 100%;
+
+}
